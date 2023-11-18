@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String[] args) {;
+    public static void main(String[] args) {
     // Задача № 1:
     var dog = 8.0;
     var cat = 3.6;
@@ -40,9 +40,9 @@ public class Main {
             boxerTwoWight + " кг\n\tОбщий вес боксёров = " + totalWeightBoxers +
             " кг\n\tРазница в весе = " + massDifference + " кг\n");
     // Задача № 7:
-    var massDifference_1 = boxerTwoWight - boxerOneWight;
+    var massDifference1 = boxerTwoWight - boxerOneWight;
     var quotient = boxerTwoWight % boxerOneWight;
-    System.out.println("Задача № 7:\n\tРазница = " + massDifference_1 + "\n\tОстаток от деления = " + quotient + "\n");
+    System.out.println("Задача № 7:\n\tРазница = " + massDifference1 + "\n\tОстаток от деления = " + quotient + "\n");
     // Задача № 8:
     var openingHours = 640;
     var openingHoursEmployees = 8;
