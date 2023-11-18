@@ -51,5 +51,6 @@ public class Main {
     employees = employees + 94;
     openingHoursEmployees = openingHours / employees;
     System.out.println("\tЕсли в компании работает " + employees + " человек, то всего " + openingHoursEmployees +
-            " часов работы может быть поделено между сотрудниками");}
+            " часов работы может быть поделено между сотрудниками");
+    }
 }
